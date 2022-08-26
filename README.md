@@ -5,4 +5,4 @@
 ## What I Learned
 
 ## Technologies Used
-Java, Git# FoodTruckProject
+Java, Git
