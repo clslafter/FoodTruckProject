@@ -16,6 +16,10 @@ public class FoodTruck {
 //		assign Food Truck Id Number and increment
 		id = ++numOfFoodTrucks;
 	}
+	
+	public FoodTruck() {
+		
+	}
 
 	public int getId() {
 		return id;
@@ -41,8 +45,13 @@ public class FoodTruck {
 		this.rating = rating;
 	}
 
-	public int getRating() {
+	public double getRating() {
 		return rating;
+	}
+	
+	public void displayTruck() {
+		String truckData = toString();
+		System.out.println(truckData);
 	}
 
 	@Override
