@@ -51,7 +51,8 @@ public class FoodTruck {
 	
 	public void displayTruck() {
 		String truckData = toString();
-		System.out.println(truckData);
+		System.out.println(truckData + "\n");
+		System.out.println();
 	}
 
 	@Override
